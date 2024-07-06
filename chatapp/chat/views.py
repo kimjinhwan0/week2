@@ -20,3 +20,5 @@ class GetMessageView(APIView):
         if id is not None:
             return Response({'message': 'OW now michigetnae'}, status=status.HTTP_200_OK)
         return Response({'error': 'id parameter is required'}, status=status.HTTP_400_BAD_REQUEST)
+    def post():
+        print("Not implemented")
